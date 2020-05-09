@@ -5,7 +5,7 @@ def initialize(emails)
   @emails = emails 
 end 
 
-def parse[]
+def parse
 @parse = self 
 end 
 
