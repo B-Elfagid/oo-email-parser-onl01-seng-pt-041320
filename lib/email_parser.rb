@@ -6,7 +6,7 @@ def initialize(emails)
 end 
 
 def parse
-@parse = self 
+
 end 
 
 end 
