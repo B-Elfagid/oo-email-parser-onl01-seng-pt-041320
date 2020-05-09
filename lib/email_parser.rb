@@ -6,15 +6,11 @@ def initialize(emails)
 end 
 
 def parse
-  email_addresses = []
-  email_addresses = @emails.split(/[\s]/)  
-    
-    email_array = @emails.split(/[,\s]/)
-    email_array = email_array.reject { |e| e == ""}
-    email_array.uniq
-  end
-
+  puts splitEmail = emails.split.collect {|address| address.split(',')} 
+  returnArr = splitEmail.flatten.uniq
+  returnArr
 end
+
 
 end 
 
