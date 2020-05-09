@@ -6,6 +6,7 @@ def initialize(emails)
 end 
 
 def parse
+  email_addresses[]
 
 end 
 
