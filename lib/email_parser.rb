@@ -7,8 +7,8 @@ end
 
 def parse
   email_addresses = []
-  email_addresses =   
-    email_array = []
+  email_addresses = @emails.split(/[\s]/)  
+    
     email_array = @emails.split(/[,\s]/)
     email_array = email_array.reject { |e| e == ""}
     email_array.uniq
